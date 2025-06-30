@@ -1,4 +1,4 @@
-const productos = [
+export const productos = [
   {
     id: 1,
     nombre: "Gorra LMB Diablos Rojos del México Star Wars May The 4th Unisex",
