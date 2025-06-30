@@ -1,0 +1,86 @@
+/* styles.css */
+/* Variables y reset */
+:root {
+  --primary: #ff00bf;
+  --secondary: #fffffff3;
+  --dark: #333;
+  --light: #f9f9f9;
+  --radius: 6px;
+  --transition: 0.3s ease-in-out;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial, sans-serif; line-height:1.6; color: var(--dark); }
+.container { width:90%; max-width:1200px; margin:0 auto; }
+
+/* Header */
+.site-header { background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.1); position:sticky; top:0; z-index:100; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; padding:1rem 0; }
+.logo { font-size:1.5rem; color: var(--primary); text-decoration:none; }
+.nav { display:flex; }
+.nav ul { display:flex; gap:1rem; list-style:none; }
+.nav a { color: var(--dark); text-decoration:none; padding:.5rem; transition: var(--transition); }
+.nav a:hover { color: var(--primary); }
+.nav-toggle { display:none; background:none; border:none; cursor:pointer; }
+.hamburger, .hamburger::before, .hamburger::after {
+  width:25px; height:3px; background: var(--dark); display:block; border-radius:2px; position:relative;
+}
+.hamburger::before, .hamburger::after {
+  content:""; position:absolute; left:0;
+}
+.hamburger::before { top:-8px; }
+.hamburger::after { top:8px; }
+
+/* Hero */
+.hero { background:url('images/head.jpg') center/cover no-repeat; transition: background-position 0.1s ease-out; color:#fff; min-height:60vh; display:flex; align-items:center; }
+.hero-content { text-align: center; width:100%; }
+.hero h1 { font-size:2.5rem; margin-bottom:1rem; }
+.hero p { font-size:1.1rem; margin-bottom:1.5rem; }
+.btn-primary {
+  background: var(--primary); color: var(--secondary); padding:.75rem 1.5rem; border:none; border-radius:var(--radius);
+  text-decoration:none; font-size:1rem; cursor:pointer; transition: var(--transition);
+}
+.btn-primary:hover { background: darken(var(--primary),10%); }
+
+/* Productos - Carousel */
+.productos { padding:4rem 0; background: var(--light); }
+.carousel { position: relative; overflow:hidden; }
+.slides { display:flex; transition:transform 0.5s ease; list-style:none; }
+.slide { min-width:100%; position:relative; text-align:center; }
+.slide img { width:100%; border-radius:var(--radius); }
+.slide-info { position:absolute; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.6); color:#fff; padding:1rem; border-radius:var(--radius); }
+.carousel-btn {
+  position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.5); border:none; color:#fff; padding:.5rem 1rem; cursor:pointer; border-radius:var(--radius);
+}
+.prev { left:10px; }
+.next { right:10px; }
+
+/* Servicios */
+.servicios { padding:4rem 0; }
+.cards { display:grid; gap:2rem; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); }
+.card { background:#fff; border-radius:var(--radius); overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; transition: transform var(--transition); }
+.card img { width:100%; }
+.card:hover { transform: translateY(-5px); }
+.card h3 { margin:1rem 0 .5rem; }
+.card p { padding:0 1rem 1rem; }
+
+/* Contacto */
+.contacto { padding:4rem 0; background: var(--light); }
+.form { display:flex; flex-direction:column; gap:1rem; max-width:600px; margin:0 auto; }
+.form input, .form textarea { padding:.75rem; border:1px solid #ccc; border-radius:var(--radius); font-size:1rem; }
+.form button { align-self:flex-end; }
+
+/* Footer */
+.site-footer { background:#222; color:#fff; text-align:center; padding:1rem 0; }
+
+/* Modal */
+.modal { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); display:none; align-items:center; justify-content:center; }
+.modal-content { background:#fff; padding:2rem; border-radius:var(--radius); position:relative; max-width:500px; width:90%; }
+.modal-close { position:absolute; top:10px; right:10px; background:none; border:none; font-size:1.5rem; cursor:pointer; }
+
+/* Responsivo */
+@media(max-width:768px) {
+  .nav { position:fixed; top:0; right:-100%; height:100%; width:250px; background:#fff; flex-direction:column; padding-top:4rem; transition: right var(--transition); }
+  .nav.open { right:0; }
+  .nav ul { flex-direction:column; gap:1.5rem; }
+  .nav-toggle { display:block; }
+}

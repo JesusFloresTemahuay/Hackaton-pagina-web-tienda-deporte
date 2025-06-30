@@ -1,54 +1,141 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Project Title</title>
-  <!--Ssss -->
+  <title> SPORTY </title>
   <link rel="stylesheet" href="styles.css" />
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/sneaker.png" />
 </head>
 <body>
-  <header>
-    <h1>My App</h1>
-    <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">SPORTY Sport Shop</a>
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="#hero">Browse</a></li>
+          <li><a href="#productos">Products</a></li>
+          <li><a href="#servicios">Services</a></li>
+          <li><a href="#contacto">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="hero">
-      <h2>Welcome!</h2>
-      <p>Introduce your app here.</p>
-      <button id="cta">Get Started</button>
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h1>Get ready for the SpongeBob Collab!</h1>
+        <p>Sneakers, T-Shirts, Hoodies and more! plus, free shipping for first purchases!.</p>
+        <a href="#productos" class="btn-primary">Check it out!</a>
+      </div>
     </section>
 
-    <section id="features">
-      <h2>Features</h2>
-      <ul>
-        <li>Fast</li>
-        <li>Responsive</li>
-        <li>Scalable</li>
-      </ul>
+    <section id="productos" class="productos">
+      <div class="container">
+        <h2>New Swag </h2>
+        <div class="carousel">
+          <button class="carousel-btn prev" aria-label="Anterior">&lt;</button>
+          <ul class="slides">
+            <li class="slide active" data-title="Zapatillas Trail X">
+              <img src="images/snkrs.jpg" alt="Zapatillas Trail X" />
+              <div class="slide-info">
+                <h3>The Bikini Sneakers</h3>
+                <p>$120 USD</p>
+                <button class="btn-secondary" data-modal="modal1">Details</button>
+              </div>
+            </li>
+            <li class="slide" data-title="Camiseta DryFit">
+              <img src="images/shirt.webp" alt="Camiseta DryFit" />
+              <div class="slide-info">
+                <h3>The DryFit Sponge-Shirt</h3>
+                <p>$35 USD</p>
+                <button class="btn-secondary" data-modal="modal2">Details</button>
+              </div>
+            </li>
+            <li class="slide" data-title="Mochila Outdoor">
+              <img src="images/bck.jpg" alt="Mochila Outdoor" />
+              <div class="slide-info">
+                <h3>The Outdoor Sponge-Pack</h3>
+                <p>$60 USD</p>
+                <button class="btn-secondary" data-modal="modal3">Details</button>
+              </div>
+            </li>
+          </ul>
+          <button class="carousel-btn next" aria-label="Siguiente">&gt;</button>
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-      <h2>About Us</h2>
-      <p>A brief description of your mission or team.</p>
+    <section id="servicios" class="servicios">
+      <div class="container">
+        <h2>Our services</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="images/SHIPP.jpg" alt="Envío Gratis" />
+            <h3>Free Shipping!</h3>
+            <p>No shipping charges added for purchases over $80 USD.</p>
+          </article>
+          <article class="card">
+            <img src="images/hero.webp" alt="Asesoría Deportiva" />
+            <h3>Q&A Section</h3>
+            <p>Let one of our experts to lend you a hand by founding the best option.</p>
+          </article>
+          <article class="card">
+            <img src="images/wrnty.jpg" alt="Garantía" />
+            <h3>Extended Waranty</h3>
+            <p>All our products includes 2 year quality waranty.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" class="form">
+          <input type="email" placeholder="Your email" required />
+          <textarea placeholder="Your message" required></textarea>
+          <button type="submit" class="btn-primary">Send</button>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Sporty (™). all rights reserved.</p>
+    </div>
   </footer>
 
-  <!-- S -->
+  <!-- Modales de detalle -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+      <h3>The Bikini Sneakers</h3>
+      <p>Ideal for hiking and trail running, with a slip-resistant sole and advanced cushioning.</p>
+    </div>
+  </div>
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+      <h3>The DryFit Sponge-Shirt</h3>
+      <p>Breathable fabric that keeps skin dry. Ergonomic cut and flat seams.</p>
+    </div>
+  </div>
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+      <h3>The Outdoor Sponge-Pack</h3>
+      <p>Capable of hauling up to 25 lbs of gear, this backpack is the perfect day-hike companion.</p>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
