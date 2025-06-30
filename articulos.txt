@@ -727,7 +727,6 @@ https://martimx.vtexassets.com/arquivos/ids/1309933-800-800?v=638690423603030000
 https://martimx.vtexassets.com/arquivos/ids/1309934-800-800?v=638690423690400000&width=800&height=800&aspect=true
 
 Nombre del producto:
-
 Tenis adidas Casual Ultimashow 2.0 Hombre
 
 precio:
@@ -750,5 +749,240 @@ Suela de caucho que brinda estabilidad y adherencia al piso.
 Talón con estabilizador construido en TPU.
 Color: Blanco.
 Modelo: IE8899
+
+Balones
+
+Balon 1
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1279975-1200-1200?v=638603072553970000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balon Medicnal Ziva Entrenamiento 2kg Am
+
+precio:
+370.00
+
+marca:
+Ziva
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Está diseñado para desarrollar potencia y coordinación
+
+detalles:
+El balón medicinal es ideal para realizar ejercicios de fuerza y resistencia.
+Su diseño resistente y duradero garantiza un entrenamiento eficaz y seguro.
+Es perfecto para ejercicios de lanzamiento, rebote y trabajo de todo el cuerpo.
+
+
+Balon 2
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1266348-1200-1200?v=638530317946970000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1266349-1200-1200?v=638530318061200000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1266350-1200-1200?v=638530318197370000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Mini Balón adidas Futbol UEFA Euro 2024 Unisex IX4048
+
+precio:
+399.00
+
+marca:
+adidas
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Juega con el mini balón conmemorativo de la Eurocopa 2024 que adidas tiene para ti. Cuenta con un diseño resistente y llamativo para que practiques tus pases y tiros. ¡No te quedes sin el tuyo!
+
+detalles:
+Fabricado con un interior sólido de espuma.
+No necesita ser inflado.
+Color: Multicolor.
+Modelo: IX4048
+Composición: 100% Poliuretano termoplástico.
+
+Balon 3
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1254456-1200-1200?v=638482012903500000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1254457-1200-1200?v=638482012972500000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1254458-1200-1200?v=638482013062230000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balón adidas Futbol Starlancer Club Unisex
+
+precio:
+499.00
+
+marca:
+adidas
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Juega como todo un profesional al utilizar el nuevo balón Starlancer Club que adidas tiene para ti. La construcción en materiales resistentes lo convierten en tu mejor opción para perfeccionar cada movimiento en el terreno de juego. ¡No esperes más para adquirir el tuyo!
+
+detalles:
+Paneles cosidos a máquina que mantiene la forma por más tiempo para mayor durabilidad.
+Cámara de butilo que mantiene la forma y retiene el aire de mejor manera.
+Requiere ser inflado.
+Color: Multicolor.
+Modelo: IP1648
+Composición: 100% TPU sustentable.
+
+Balon 4
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1400925-1200-1200?v=638806149874700000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1400716-1200-1200?v=638809386083830000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balón Puma Futbol ATTACANTO Unisex
+
+precio:
+299.00
+
+marca:
+Puma
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Consigue anotar cada gol con el nuevo balón ATTACANTO que Puma trae para ti. Sus paneles cosidos a máquina lo convierten en un balón resistente, perfecto para que sigas practicando y divirtiéndote al máximo.
+
+detalles:
+Construcción de 14 paneles que reduce los puntos de contacto para mantener por más tiempo su forma esférica.
+Cubierta de TPU (Termo Poliuretano) muy consistente y que brinda mayor durabilidad.
+Logo de la marca muy llamativo.
+Color: Verde.
+Modelo: 084073 06
+
+
+Balon 5
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1406723-1200-1200?v=638811112296770000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1406877-1200-1200?v=638811113139570000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balón Nike Futbol Mercurial Fade Unisex FZ3036-102
+
+precio:
+499.00
+
+marca:
+Nike
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Juega con mayor destreza al utilizar el nuevo balón Mercurial Fade que Nike trae para ti. Cuenta con un diseño durable que te permitirá poner en práctica tus mejores tiros, por lo que será perfecto para entrenamientos o partidos.
+
+detalles:
+Construcción de 12 paneles que reduce los puntos de contacto para mantener por más tiempo su forma esférica.
+Paneles cosidos a máquina que mantiene la forma por más tiempo para mayor durabilidad.
+Cámara reforzada de goma que mantiene la forma y retiene el aire de mejor manera.
+Producto importado.
+Color: Blanco.
+Modelo: FZ3036-102
+Composición: 60% Goma / 15% Poliuretano / 13% Poliéster / 12% EVA (Etil Vinil Acetato.
+
+
+Balon 6
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1329066-1200-1200?v=638744590648470000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1329067-1200-1200?v=638744590648470000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1329068-1200-1200?v=638744590648470000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balón Voit Futbol Morph Clausura 2025 FIFA Quality PRO Unisex 84440
+
+precio:
+2,199.00
+
+marca:
+Voit
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Juega como los grandes con el balón oficial de la Clausura 2025, este modelo es el mismo utilizado en el torneo de la Liga MX, por lo que te ayudará a llevar tu partido al siguiente nivel. Además, cuenta con tecnologías de alto rendimiento. ¡No te puedes quedar sin el tuyo!
+
+detalles:
+Balón con un grabado especial en los paneles para optimizar su resistencia aerodinámica.
+Superficie texturizada para un mejor control del balón.
+Ideal para jugar en cualquier superficie de juego.
+Certificado FIFA Quality PRO.
+Color: Multicolor.
+Modelo: 84440
+
+
+Balon 7
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1393456-1200-1200?v=638793828438730000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1393380-1200-1200?v=638793848847500000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1393391-1200-1200?v=638793848847500000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Mini Balón adidas Futbol UEFA Champions League Tercero Unisex JX2270
+
+precio:
+349.00
+
+marca:
+adidas
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Revive la emoción de la Champions con el mini balón adidas. Está inspirado en uno de los modelos oficiales del nuevo formato, por lo que llevarás la esencia del torneo más grande a donde vayas. Es ideal para coleccionistas y amantes del futbol, ¿ya tienes el tuyo?
+
+detalles:
+Interior fabricado en espuma sólida que ayuda a mantener su forma esférica por más tiempo.
+Logo estampado de la UEFA Champions League.
+No requiere ser inflado.
+Color: Multicolor.
+Modelo: JX2270
+Composición: 100% Poliuretano termoplástico sustentable.
+
+Balon 8
+imagenes:
+https://martimx.vtexassets.com/arquivos/ids/1406837-1200-1200?v=638811112922970000&width=1200&height=1200&aspect=true
+https://martimx.vtexassets.com/arquivos/ids/1406823-1200-1200?v=638811112839670000&width=1200&height=1200&aspect=true
+
+Nombre del producto:
+Balón Nike Futbol Pitch Unisex FZ2636-105
+
+precio:
+549.00
+
+marca:
+Nike
+
+categoria:(8 articulos por categoria) [tenis, playeras, gorras, balones]
+Balon
+ 
+descripcion del producto:
+Juega como todo un profesional con el balón Pitch de Nike. Su diseño está creado especialmente para tus entrenamientos, ya que te permite perfeccionar tus habilidades en el terreno gracias a su construcción en materiales duraderos.
+
+detalles:
+Paneles cosidos a máquina que mantiene la forma por más tiempo para mayor durabilidad.
+Cámara de goma que mantiene la forma y retiene el aire de mejor manera.
+Producto importado.
+Color: Blanco.
+Modelo: FZ2636-105
+Composición: 60% Goma / 15% Poliuretano / 13% Poliéster / 12% EVA (Etil Vinil Acetato).
+
+
+
+
+
+Composición: 60% Goma / 15% Poliuretano / 13% Poliéster / 12% EVA (Etil Vinil Acetato.
 
 
