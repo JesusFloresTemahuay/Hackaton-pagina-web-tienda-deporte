@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing - Tenis SportPro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1528701800489-20be9c6f5a08') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-shadow: 1px 1px 3px black;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 3rem;
+      border-radius: 1rem;
+    }
+    .cta-button {
+      font-size: 1.2rem;
+      padding: 0.75rem 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sección Hero -->
+  <div class="hero d-flex justify-content-center">
+    <div class="overlay text-center">
+      <h1 class="display-4">Nuevos Tenis SportPro</h1>
+      <p class="lead">Diseñados para el máximo rendimiento y comodidad. Perfectos para correr, entrenar o usar a diario.</p>
+      <p><strong>Precio especial: $89.99</strong></p>
+      <a href="#comprar" class="btn btn-success cta-button">¡Lo quiero ahora!</a>
+    </div>
+  </div>
+
+  <!-- Detalles del producto -->
+  <div class="container my-5" id="comprar">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1562183241-b937f6688f94" class="img-fluid rounded shadow" alt="Tenis SportPro">
+      </div>
+      <div class="col-md-6">
+        <h2>Comodidad, estilo y durabilidad</h2>
+        <ul>
+          <li>✅ Plantilla ergonómica con soporte anti-impacto</li>
+          <li>✅ Material transpirable y resistente al agua</li>
+          <li>✅ Suela con agarre antideslizante</li>
+          <li>✅ Disponible en varias tallas y colores</li>
+        </ul>
+        <form class="mt-4">
+          <div class="mb-3">
+            <label for="email" class="form-label">Ingresa tu correo para recibir tu cupón de descuento</label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@example.com" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">¡Obtener mi cupón!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonios -->
+  <div class="bg-light py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Lo que dicen nuestros clientes</h3>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Los mejores tenis que he comprado. Cómodos y resistentes."</p>
+            <footer class="blockquote-footer">Carlos M.</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Perfectos para correr, el agarre es excelente."</p>
+            <footer class="blockquote-footer">Laura G.</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Me encantó el diseño y el servicio de entrega fue rápido."</p>
+            <footer class="blockquote-footer">Esteban R.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    © 2025 Tenis SportPro - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>

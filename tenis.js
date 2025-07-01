@@ -1,23 +1,30 @@
 import { productos } from './productos.js';
 
-function cargaTenis(){
-   /**
-     console.log("cargado tenis");
-    let idc = "tenis0X-marca";
-    let id = idc;
+const MAX_DESC = 80;
 
-    for (let index = 0; index < 4; index++) {
-        id = id.replace("X", "" + index + 17);
-        document.getElementById(id).innerText = productos[index].marca + " - " + productos[17].nombre;
-        document.getElementById(id).innerText = productos[index].imagenes[0];
-        document.getElementById(id).innerText = productos[index].precio;
-        document.getElementById(id).innerText = productos[index].descripcion;
-        console.log(id + " cargado");
+function cargaTenis(){
+     console.log("cargando tenis");
+    let idc = "tenis0X-";
+    let id = idc;
+    let cou = Math.floor(Math.random() * 8)+16;
+
+    for (let index = 1; index <= 4; index++) {
+        id = id.replace("X", "" + index);
+        cou = Math.floor(Math.random() * 8)+16;
+
+        document.getElementById(id+"marca").innerText = productos[cou].marca + " - " + productos[cou].nombre;
+        document.getElementById(id+"imagen").src = productos[cou].imagenes[0];
+        document.getElementById(id+"precio").innerText = productos[cou].precio;
+        if (productos[cou].descripcion.length > MAX_DESC) {
+            document.getElementById(id+"descripcion").innerText = productos[cou].
+            descripcion.substring(0, MAX_DESC - 1) + "... ";
+        } else {
+            document.getElementById(id+"descripcion").innerText = productos[cou].descripcion
+        }
+        console.log(id + " cargando: " + id);
         id = idc;
     }
-    */
+    
 }
 
-//document.getElementById("tenis01-marca").innerText = productos[17].marca + " - " + productos[17].nombre;
-document.getElementById("tenis01-marca").innerText = "sdfafdsafdsaf";
-console.log("Hola");
+cargaTenis();
