@@ -1,6 +1,7 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,18 +9,12 @@
   <title> SPORTY </title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="images/sneaker.png" />
-  <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 </head>
+</head>
+
 <body>
   <header class="site-header">
     <div class="container">
@@ -32,6 +27,7 @@
           <li><a href="./index.html">Inico</a></li>
           <li><a href="./pantilla-producto.html">Productos</a></li>
           <li><a href="./contact.html">Contactanos</a></li>
+          <li><a href="./carrito.html"><i class="bi bi-cart"></i> Carrito</a></li>
         </ul>
       </nav>
     </div>
@@ -40,293 +36,180 @@
   <main>
     <section id="hero" class="hero">
       <div class="container hero-content">
-        <h1>Get ready for the SpongeBob Collab!</h1>
-        <p>Sneakers, T-Shirts, Hoodies and more! plus, free shipping for first purchases!.</p>
-        <a href="#productos" class="btn-primary">Check it out!</a>
+        <h1>¡Prepárate para la colaboración de Bob Esponja!</h1>
+        <p>Sneakers, T-Shirts, Hoodies y mucho más! Además, ¡envío gratis en la primera compra!.</p>
+        <a href="#productos" class="btn-primary">¡Echa un vistazo!</a>
       </div>
     </section>
 
-  <!--extra header deleted-->
+    <!--extra header deleted-->
 
     <main>
 
 
       <section id="productos" class="productos">
         <div class="container">
+          <h3 class="mt-3 text-sm-center">Tenis</h3>
+          <div class="row mt-3 d-flex justify-content-around" id="seccion-tenis"></div>
+
           <div class="row mt-3 d-flex justify-content-around">
-              <h3 class="mt-3 text-sm-center">Tenis</h3>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
+            <h3 class="mt-3 text-sm-center">Shirts</h3>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img src="images/p1.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The black and blue Slim-Fit</h5>
+                <h6>$ 499</h6>
+                <p class="card-text">This slim-fit T-shirt features a modern, tapered cut designed to complement your
+                  silhouette without sacrificing comfort. Crafted from breathable fabric, it comes in a bold blue and
+                  black color combination that adds a sleek, contemporary edge to any casual outfit. Ideal for layering
+                  or wearing solo—perfect for everyday style with a polished touch.</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
                 </div>
               </div>
             </div>
-            <div class="row mt-3 d-flex justify-content-around">
-              <h3 class="mt-3 text-sm-center">Shirts</h3>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="images/p1.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">The black and blue Slim-Fit</h5>
-                  <h6>$ 499</h6>
-                  <p class="card-text">This slim-fit T-shirt features a modern, tapered cut designed to complement your silhouette without sacrificing comfort. Crafted from breathable fabric, it comes in a bold blue and black color combination that adds a sleek, contemporary edge to any casual outfit. Ideal for layering or wearing solo—perfect for everyday style with a polished touch.</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="images/p2.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">The lighty-Darky Slim-Fit</h5>
-                  <h6>$ 499</h6>
-                  <p class="card-text">Add a bold touch to your wardrobe with this slim-fit T-shirt featuring a dynamic blend of pink, grey, and black tones. Designed for a tailored silhouette, this tee offers both comfort and edge with its breathable fabric and modern color blocking. Versatile enough for casual outings or layering under a jacket—style meets attitude in every thread.</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="images/p3.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">The BlacPink Slim-Fit</h5>
-                  <h6>$ 599</h6>
-                  <p class="card-text">Make a confident style statement with this slim-fit T-shirt featuring a bold contrast of pink and black. Tailored for a sleek, close-to-body fit, it combines comfort with attitude—crafted from soft, breathable fabric that moves with you. Perfect for creating standout looks, whether you're keeping it casual or layering it up.</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="images/p4.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">The Pinky Slim-Fit</h5>
-                  <h6>$ 599</h6>
-                  <p class="card-text">Make a confident style statement with this slim-fit T-shirt featuring a bold contrast of pink and black. Tailored for a sleek, close-to-body fit, it combines comfort with attitude—crafted from soft, breathable fabric that moves with you. Perfect for creating standout looks, whether you're keeping it casual or layering it up.</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img src="images/p2.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The lighty-Darky Slim-Fit</h5>
+                <h6>$ 499</h6>
+                <p class="card-text">Add a bold touch to your wardrobe with this slim-fit T-shirt featuring a dynamic
+                  blend of pink, grey, and black tones. Designed for a tailored silhouette, this tee offers both comfort
+                  and edge with its breathable fabric and modern color blocking. Versatile enough for casual outings or
+                  layering under a jacket—style meets attitude in every thread.</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
                 </div>
               </div>
             </div>
-            <div class="row mt-3 d-flex justify-content-around">
-              <h3 class="mt-3 text-sm-center">Gorras</h3>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Marca - Producto</h5>
-                  <h6>Precio$$</h6>
-                  <p class="card-text">Una pequeña descripción del producto</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img src="images/p3.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The BlacPink Slim-Fit</h5>
+                <h6>$ 599</h6>
+                <p class="card-text">Make a confident style statement with this slim-fit T-shirt featuring a bold
+                  contrast of pink and black. Tailored for a sleek, close-to-body fit, it combines comfort with
+                  attitude—crafted from soft, breathable fabric that moves with you. Perfect for creating standout
+                  looks, whether you're keeping it casual or layering it up.</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
                 </div>
               </div>
             </div>
-            <div class="row mt-3 d-flex justify-content-around mb-3">
-              <h3 class="mt-3 text-sm-center">Balones</h3>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="https://martimx.vtexassets.com/arquivos/ids/1279975-1200-1200?v=638603072553970000&width=1200&height=1200&aspect=true" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Ziva - Está diseñado para desarrollar potencia y coordinación</h5>
-                  <h6>$ 370.0</h6>
-                  <p class="card-text">Balón medicinal es ideal para realizar ejercicios de fuerza y resistencia</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="https://martimx.vtexassets.com/arquivos/ids/1266348-1200-1200?v=638530317946970000&width=1200&height=1200&aspect=true"" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Adidas - Mini Balón adidas Futbol UEFA Euro 2024 Unisex IX4048</h5>
-                  <h6>$ 399</h6>
-                  <p class="card-text">Mini balón conmemorativo de la Eurocopa 2024 que adidas tiene para ti</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="https://martimx.vtexassets.com/arquivos/ids/1254456-1200-1200?v=638482012903500000&width=1200&height=1200&aspect=true" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Adidas - Balón adidas Futbol Starlancer Club Unisex</h5>
-                  <h6>$ 499</h6>
-                  <p class="card-text">Nuevo balón Starlancer Club que adidas tiene para ti</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="card col-md-3 mt-3" style="width: 18rem">
-                <img src="https://martimx.vtexassets.com/arquivos/ids/1400925-1200-1200?v=638806149874700000&width=1200&height=1200&aspect=true" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Puma - Balón Puma Futbol ATTACANTO Unisex</h5>
-                  <h6>$ 299</h6>
-                  <p class="card-text">Anota cada gol con el nuevo balón ATTACANTO que Puma trae para ti</p>
-                  <div class="d-grid gap-2 d-md-block">
-                    <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
-                    <a href="#" class="btn btn-primary btn-sm mt-3"
-                      ><i class="bi bi-cart px-1"></i>Agregar al carrito</a
-                    >
-                  </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img src="images/p4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The Pinky Slim-Fit</h5>
+                <h6>$ 599</h6>
+                <p class="card-text">Make a confident style statement with this slim-fit T-shirt featuring a bold
+                  contrast of pink and black. Tailored for a sleek, close-to-body fit, it combines comfort with
+                  attitude—crafted from soft, breathable fabric that moves with you. Perfect for creating standout
+                  looks, whether you're keeping it casual or layering it up.</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
                 </div>
               </div>
             </div>
           </div>
-            
+          <h3 class="mt-3 text-sm-center">Gorras</h3>
+          <div class="row mt-3 d-flex justify-content-around" id="seccion-gorras"></div>
+
+          <div class="row mt-3 d-flex justify-content-around mb-3">
+            <h3 class="mt-3 text-sm-center">Balones</h3>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img
+                src="https://martimx.vtexassets.com/arquivos/ids/1279975-1200-1200?v=638603072553970000&width=1200&height=1200&aspect=true"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ziva - Está diseñado para desarrollar potencia y coordinación</h5>
+                <h6>$ 370.0</h6>
+                <p class="card-text">Balón medicinal es ideal para realizar ejercicios de fuerza y resistencia</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img
+                src="https://martimx.vtexassets.com/arquivos/ids/1266348-1200-1200?v=638530317946970000&width=1200&height=1200&aspect=true" class="
+                card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Adidas - Mini Balón adidas Futbol UEFA Euro 2024 Unisex IX4048</h5>
+                <h6>$ 399</h6>
+                <p class="card-text">Mini balón conmemorativo de la Eurocopa 2024 que adidas tiene para ti</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img
+                src="https://martimx.vtexassets.com/arquivos/ids/1254456-1200-1200?v=638482012903500000&width=1200&height=1200&aspect=true"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Adidas - Balón adidas Futbol Starlancer Club Unisex</h5>
+                <h6>$ 499</h6>
+                <p class="card-text">Nuevo balón Starlancer Club que adidas tiene para ti</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3 mt-3" style="width: 18rem">
+              <img
+                src="https://martimx.vtexassets.com/arquivos/ids/1400925-1200-1200?v=638806149874700000&width=1200&height=1200&aspect=true"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Puma - Balón Puma Futbol ATTACANTO Unisex</h5>
+                <h6>$ 299</h6>
+                <p class="card-text">Anota cada gol con el nuevo balón ATTACANTO que Puma trae para ti</p>
+                <div class="d-grid gap-2 d-md-block">
+                  <a href="#" class="btn btn-primary btn-sm mt-3">Ver más</a>
+                  <a href="#" class="btn btn-primary btn-sm mt-3"><i class="bi bi-cart px-1"></i>Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
       </section>
 
       <section id="servicios" class="servicios">
         <div class="container">
-          <h2>Our services</h2>
+          <h2>Servicios</h2>
           <div class="cards">
-            <article class="card">
-              <img src="images/SHIPP.jpg" alt="Envío Gratis" />
-              <h3>Free Shipping!</h3>
-              <p>No shipping charges added for purchases over $80 USD.</p>
-            </article>
-            <article class="card">
-              <img src="images/hero.webp" alt="Asesoría Deportiva" />
-              <h3>Q&A Section</h3>
-              <p>
-                Let one of our experts to lend you a hand by founding the best
-                option.
-              </p>
-            </article>
-            <article class="card">
-              <img src="images/wrnty.jpg" alt="Garantía" />
-              <h3>Extended Waranty</h3>
-              <p>All our products includes 2 year quality waranty.</p>
-            </article>
+
+            <div class="card">
+              <h3>Entrega Gratis</h3>
+              <p> disfruta de envios gratis en compras mayores a 1200  </p>
+            </div>
+            <div class="card">
+              <h3>Soporte 24/7</h3>
+              <p>Nuestro servicio al cliente se encuentra disponible las 24 horas del dia y los 7 dias de la semana</p>
+            </div>
+            <div class="card">
+              <h3>Facilidad de devoluciones</h3>
+              <p>Compra con confianza! recuerda que dispones de 30 dias habiles para realizar cualquier devolucion</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="contacto" class="contacto">
         <div class="container">
-          <h2>Contact Us</h2>
+          <h2>Contactanos</h2>
           <form action="#" class="form">
-            <input type="email" placeholder="Your email" required />
-            <textarea placeholder="Your message" required></textarea>
-            <button type="submit" class="btn-primary">Send</button>
+            <input type="email" placeholder=" email" required />
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn-primary">Enviar</button>
           </form>
         </div>
       </section>
@@ -334,7 +217,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>&copy; 2025 Sporty (™). all rights reserved.</p>
+        <p>&copy; 2025 Sporty (™). Todos los derechos reservados.</p>
       </div>
     </footer>
 
@@ -369,11 +252,11 @@
       </div>
     </div>
 
-     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+    <script src="productos.js"></script>
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
